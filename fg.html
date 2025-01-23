@@ -1,0 +1,109 @@
+<!-- <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Su</title>
+        <style>
+           div {
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            }
+            .widthmax{
+                width: 800px
+            }
+        </style>
+</head>
+<body>
+        <div id="bom"></div>
+    <button onclick = "change()">change color</button>
+    
+    <script>
+        var box=document.getElementById("bom")
+        function change()
+        {
+            box.setAttribute("class","widthmax")
+        }
+
+    </script>
+</body>
+</html> -->
+<!-- <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Su</title>
+    <style>
+        div {
+            background-color: black;
+            width: 100px;
+            height: 100px;
+        }
+        .widthmax {
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div id="bom"></div>
+    <button onclick="change()">Change Color</button>
+    
+    <script>
+        var box = document.getElementById("bom");
+        function change() {
+            box.setAttribute("class", "widthmax");
+        }
+    </script>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyUp Example</title>
+</head>
+<body>
+    <input type="text" id="inputBox" placeholder="Type something here...">
+    <h1 id="result"></h1>
+
+    <script>
+        
+        const inputBox = document.getElementById('inputBox');
+        const result = document.getElementById('result');
+
+        inputBox.onkeyup = function () {
+            result.textContent = inputBox.value;
+        };
+    </script>
+</body>
+</html> -->
+
+<!-- <button onclick="addHello()">Add Hello</button>
+<div id="container"></div>
+
+<script>
+  function addHello() {
+    const h1 = document.createElement('h1');
+    h1.textContent = 'Hello';
+    document.getElementById('container').appendChild(h1);
+  }
+</script> -->
+<!-- <button onclick="changeColor(this)">Change Color</button>
+
+<script>
+  function changeColor(button) {
+    button.style.backgroundColor = 'red';
+  }
+</script> -->
+
+<h1 id="display">John</h1>
+<button onclick="showText(this)">John</button>
+<button onclick="showText(this)">Hari</button>
+<button onclick="showText(this)">Praveen</button>
+
+<script>
+  function showText(button) {
+    document.getElementById('display').textContent = button.textContent;
+  }
+</script>
